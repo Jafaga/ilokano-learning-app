@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Learn Ilokano",
+    "slug": "ilokano-learning-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "learn-ilokano",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.justine.learnilokano"
+    },
+    "android": {
+      "package": "com.justine.learnilokano",
+      "adaptiveIcon": {
+        "backgroundColor": "#18392B"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
