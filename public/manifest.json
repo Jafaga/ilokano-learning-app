@@ -1,0 +1,9 @@
+{
+  "name": "Learn Ilokano",
+  "short_name": "Ilokano",
+  "description": "A mobile-friendly Ilokano learning app.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f8ef",
+  "theme_color": "#58cc02"
+}

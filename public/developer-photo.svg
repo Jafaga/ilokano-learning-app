@@ -1,0 +1,16 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Developer portrait placeholder</title>
+  <desc id="desc">A warm illustrated placeholder portrait for the app developer.</desc>
+  <rect width="320" height="320" rx="72" fill="#E7F9D4"/>
+  <circle cx="252" cy="66" r="42" fill="#FFD43B" opacity="0.9"/>
+  <path d="M43 256C70 211 111 190 160 190C209 190 250 211 277 256V320H43V256Z" fill="#58CC02"/>
+  <circle cx="160" cy="135" r="62" fill="#F0C7A2"/>
+  <path d="M94 135C94 77 126 45 165 45C205 45 231 75 231 129C219 112 198 102 169 103C136 104 112 115 94 135Z" fill="#1B2718"/>
+  <path d="M106 138C112 108 133 92 165 92C198 92 219 108 225 138C219 103 197 75 163 75C129 75 111 102 106 138Z" fill="#273A22"/>
+  <circle cx="137" cy="142" r="7" fill="#182414"/>
+  <circle cx="184" cy="142" r="7" fill="#182414"/>
+  <path d="M140 167C153 178 169 178 181 167" stroke="#8B4A2B" stroke-width="9" stroke-linecap="round"/>
+  <path d="M91 271C111 239 135 224 160 224C185 224 209 239 229 271" stroke="white" stroke-width="14" stroke-linecap="round" opacity="0.85"/>
+  <path d="M57 61C80 44 104 36 130 36" stroke="#58CC02" stroke-width="14" stroke-linecap="round"/>
+  <path d="M59 89C78 78 96 72 114 72" stroke="#3F9901" stroke-width="10" stroke-linecap="round"/>
+</svg>
