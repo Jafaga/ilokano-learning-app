@@ -124,6 +124,3 @@ git push
 6. Deploy the web app through Vercel.
 7. Later, decide whether to wrap the app as a mobile app or continue as a responsive web app.
 =======
-# ilokano-learning-app
-IP 99 Project
->>>>>>> 342f3f42b93839ba3f5d500f27366fdab13be9f7
