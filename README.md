@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Learn Ilokano — Next.js MVP
 
 A Duolingo-inspired beginner Ilokano learning app built with **Next.js**, **TypeScript**, and local browser storage. The project is designed as a software engineering foundation that can later connect to Supabase for real accounts, admin content editing, audio recordings, and analytics.
@@ -123,3 +124,7 @@ git push
 5. Build a contributor/admin content dashboard.
 6. Deploy the web app through Vercel.
 7. Later, decide whether to wrap the app as a mobile app or continue as a responsive web app.
+=======
+# ilokano-learning-app
+IP 99 Project
+>>>>>>> 342f3f42b93839ba3f5d500f27366fdab13be9f7
