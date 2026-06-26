@@ -1,4 +1,4 @@
-# Learn Ilokano — Next.js MVP
+# Learn Ilokano — Next.js 
 
 Hello there! This is a proect based assignment, a Duolingo inspired, beginner Ilokano learning app built with **Next.js**, **TypeScript**, and local browser storage. The project is designed as a software engineering foundation that can later connect to Supabase for real accounts, admin content editing, audio recordings, and analytics.
 
@@ -115,6 +115,7 @@ git push
 ```
 
 ## Next Development Steps
+If this were to be developed even further in the future, then here are things I may consider. To make it professional, these are the priorities I should focused to have a fully developed Ilokano, Duolingo like learning app. 
 
 1. Have Ilokano contributors review the lesson wording.
 2. Replace `public/developer-photo.svg` with your actual developer photo when ready.
