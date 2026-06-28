@@ -118,7 +118,6 @@ git push
 If this were to be developed even further in the future, then here are things I may consider. To make it professional, these are the priorities I should focused to have a fully developed Ilokano, Duolingo like learning app. 
 
 1. Have Ilokano contributors review the lesson wording.
-2. Replace `public/developer-photo.svg` with your actual developer photo when ready.
 3. Add real voice/audio pronunciation files.
 4. Connect Supabase login and user progress.
 5. Build a contributor/admin content dashboard.
