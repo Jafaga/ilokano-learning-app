@@ -796,25 +796,25 @@ export const sampleLessons: Lesson[] = [
         "id": "family-1-q9",
         "type": "translation",
         "prompt": "Translate to English:",
-        "ilokano": "Ni Maria ti inak.",
+        "ilokano": "Ni Maria ti nanangko.",
         "correctAnswer": "Maria is my mother",
         "acceptedAnswers": [
           "maria is my mother",
           "maria is my mom"
         ],
-        "explanation": "“Inak” means “my mother.”"
+        "explanation": "“Nanangko” means “my mother.”"
       },
       {
         "id": "family-1-q10",
         "type": "translation",
         "prompt": "Translate to English:",
-        "ilokano": "Ni Juan ti amak.",
+        "ilokano": "Ni Juan ti tatangko.",
         "correctAnswer": "Juan is my father",
         "acceptedAnswers": [
           "juan is my father",
           "juan is my dad"
         ],
-        "explanation": "“Amak” means “my father.”"
+        "explanation": "“Tatangko” means “my father.”"
       }
     ]
   },
@@ -900,11 +900,11 @@ export const sampleLessons: Lesson[] = [
         "type": "multiple-choice",
         "prompt": "Which sentence means “This is my mother”?",
         "choices": [
-          "Daytoy ti inak.",
+          "Daytoy ti nanangko.",
           "Daytoy ti kanen.",
           "Daytoy ti kannawan."
         ],
-        "correctAnswer": "Daytoy ti inak.",
+        "correctAnswer": "Daytoy ti nanangko.",
         "explanation": "“Daytoy ti...” means “This is the/this is my...” depending on the noun pattern."
       },
       {
@@ -912,12 +912,12 @@ export const sampleLessons: Lesson[] = [
         "type": "multiple-choice",
         "prompt": "Which sentence means “This is my father”?",
         "choices": [
-          "Daytoy ti amak.",
+          "Daytoy ti tatangko.",
           "Daytoy ti danum.",
           "Daytoy ti berde."
         ],
-        "correctAnswer": "Daytoy ti amak.",
-        "explanation": "“Amak” means “my father.”"
+        "correctAnswer": "Daytoy ti tatangko.",
+        "explanation": "“Tatangko” means “my father.”"
       },
       {
         "id": "family-2-q8",
