@@ -318,10 +318,10 @@ export const sampleLessons: Lesson[] = [
         "type": "translation",
         "prompt": "Translate to English:",
         "ilokano": "Agsubliak.",
-        "correctAnswer": "I will return",
+        "correctAnswer": "I will come back",
         "acceptedAnswers": [
-          "i will return",
-          "i return",
+          "i will come back",
+          "i come back",
           "i am returning",
           "i'll return"
         ],
@@ -889,7 +889,9 @@ export const sampleLessons: Lesson[] = [
         "correctAnswer": "My family is good",
         "acceptedAnswers": [
           "my family is good",
-          "my family is fine"
+          "my family is fine",
+          "my family is nice"
+      
         ],
         "explanation": "“Nasayaat” means good or fine."
       },
@@ -1761,7 +1763,7 @@ export const sampleLessons: Lesson[] = [
       {
         "id": "time-2-q9",
         "type": "multiple-choice",
-        "prompt": "Choose the best translation of “Mapanak idi kalman.”",
+        "prompt": "Choose the best translation of “Napanak idi kalman.”",
         "choices": [
           "I went yesterday",
           "I will go tomorrow",
@@ -2279,7 +2281,7 @@ export const sampleLessons: Lesson[] = [
         "id": "places-2-q6",
         "type": "translation",
         "prompt": "Translate to English:",
-        "ilokano": "Sadino ti eskuelaan?",
+        "ilokano": "Sadino ti eskuela?",
         "correctAnswer": "Where is the school?",
         "acceptedAnswers": [
           "where is the school",
