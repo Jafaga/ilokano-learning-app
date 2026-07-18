@@ -65,12 +65,13 @@ export const units: Unit[] = [
   {
     "id": "unit-time",
     "title": "Unit 6: Time & Days",
-    "description": "Talk about morning, evening, today, yesterday, and tomorrow.",
+    "description": "Talk about morning, evening, today, yesterday, tomorrow, and simple clock time.",
     "orderIndex": 6,
     "stage": "Daily Life",
     "focus": [
       "Time",
       "Days",
+      "Clock time",
       "Routine"
     ]
   },
@@ -89,12 +90,13 @@ export const units: Unit[] = [
   {
     "id": "unit-places",
     "title": "Unit 8: Places & Directions",
-    "description": "Ask where places are and understand simple direction words.",
+    "description": "Ask where places are and understand simple direction words, including compass directions.",
     "orderIndex": 8,
     "stage": "Navigation",
     "focus": [
       "Places",
       "Directions",
+      "Compass directions",
       "Where questions"
     ]
   },
@@ -1788,12 +1790,161 @@ export const sampleLessons: Lesson[] = [
     ]
   },
   {
+    "id": "time-3",
+    "unitId": "unit-time",
+    "unitTitle": "Unit 6: Time & Days",
+    "lessonTitle": "Asking for the Time",
+    "description": "Practice asking what time it is and answering with simple o’clock phrases.",
+    "orderIndex": 13,
+    "xpReward": 12,
+    "stage": "Daily Life",
+    "skillTags": [
+      "Clock time",
+      "Questions",
+      "O’clock phrases"
+    ],
+    "questions": [
+      {
+        "id": "time-3-q1",
+        "type": "multiple-choice",
+        "prompt": "What does “Ania ti oras?” mean?",
+        "choices": [
+          "What time is it?",
+          "Where is the school?",
+          "How many books?"
+        ],
+        "correctAnswer": "What time is it?",
+        "explanation": "“Ania ti oras?” is a beginner-friendly way to ask “What time is it?”"
+      },
+      {
+        "id": "time-3-q2",
+        "type": "multiple-choice",
+        "prompt": "What does “Ania nga oras?” ask?",
+        "choices": [
+          "What time is it?",
+          "What is your name?",
+          "Are you hungry?"
+        ],
+        "correctAnswer": "What time is it?",
+        "explanation": "This is another common way to ask about the time."
+      },
+      {
+        "id": "time-3-q3",
+        "type": "multiple-choice",
+        "prompt": "What does “Ala una.” mean?",
+        "choices": [
+          "It is one o’clock.",
+          "It is two o’clock.",
+          "It is morning."
+        ],
+        "correctAnswer": "It is one o’clock.",
+        "explanation": "“Ala una” is commonly used for one o’clock."
+      },
+      {
+        "id": "time-3-q4",
+        "type": "multiple-choice",
+        "prompt": "Choose the best meaning of “Alas dos.”",
+        "choices": [
+          "It is two o’clock.",
+          "It is ten o’clock.",
+          "It is tomorrow."
+        ],
+        "correctAnswer": "It is two o’clock.",
+        "explanation": "“Alas dos” is commonly used for two o’clock."
+      },
+      {
+        "id": "time-3-q5",
+        "type": "multiple-choice",
+        "prompt": "Choose the Ilokano-time phrase for “It is three o’clock.”",
+        "choices": [
+          "Alas tres.",
+          "Alas sais.",
+          "Idi kalman."
+        ],
+        "correctAnswer": "Alas tres.",
+        "explanation": "“Alas tres” means three o’clock."
+      },
+      {
+        "id": "time-3-q6",
+        "type": "multiple-choice",
+        "prompt": "Choose the Ilokano-time phrase for “It is four o’clock.”",
+        "choices": [
+          "Alas kwatro.",
+          "Alas otso.",
+          "Inton bigat."
+        ],
+        "correctAnswer": "Alas kwatro.",
+        "explanation": "“Alas kwatro” means four o’clock."
+      },
+      {
+        "id": "time-3-q7",
+        "type": "translation",
+        "prompt": "Translate to English:",
+        "ilokano": "Alas singko ti oras.",
+        "correctAnswer": "It is five o’clock",
+        "acceptedAnswers": [
+          "it is five o'clock",
+          "it is five oclock",
+          "it's five o'clock",
+          "its five o'clock",
+          "it is 5 o'clock",
+          "it is 5"
+        ],
+        "explanation": "“Alas singko” means five o’clock."
+      },
+      {
+        "id": "time-3-q8",
+        "type": "translation",
+        "prompt": "Translate to English:",
+        "ilokano": "Alas sais ti oras.",
+        "correctAnswer": "It is six o’clock",
+        "acceptedAnswers": [
+          "it is six o'clock",
+          "it is six oclock",
+          "it's six o'clock",
+          "its six o'clock",
+          "it is 6 o'clock",
+          "it is 6"
+        ],
+        "explanation": "“Alas sais” means six o’clock."
+      },
+      {
+        "id": "time-3-q9",
+        "type": "multiple-choice",
+        "prompt": "Best answer to “Ania ti oras?”",
+        "choices": [
+          "Alas siete.",
+          "Kabsatko ni Ana.",
+          "Nalabaga ti bado."
+        ],
+        "correctAnswer": "Alas siete.",
+        "explanation": "If someone asks the time, an answer like “Alas siete” gives the hour."
+      },
+      {
+        "id": "time-3-q10",
+        "type": "translation",
+        "prompt": "Translate to English:",
+        "ilokano": "Ania ti oras? Alas otso.",
+        "correctAnswer": "What time is it? It is eight o’clock.",
+        "acceptedAnswers": [
+          "what time is it it is eight o'clock",
+          "what time is it? it is eight o'clock",
+          "what time is it its eight o'clock",
+          "what time is it it's eight o'clock",
+          "what time is it it is 8 o'clock",
+          "what time is it? it is 8"
+        ],
+        "explanation": "This combines the question “What time is it?” with a simple o’clock answer."
+      }
+    ]
+  },
+  {
     "id": "food-1",
     "unitId": "unit-food",
     "unitTitle": "Unit 7: Food & Needs",
     "lessonTitle": "Food and Needs",
     "description": "Learn basic food words and phrases for hunger, thirst, and wanting something.",
-    "orderIndex": 13,
+    "orderIndex": 14,
     "xpReward": 10,
     "stage": "Daily Life",
     "skillTags": [
@@ -1932,7 +2083,7 @@ export const sampleLessons: Lesson[] = [
     "unitTitle": "Unit 7: Food & Needs",
     "lessonTitle": "At the Table",
     "description": "Practice polite and natural phrases for eating with family and friends.",
-    "orderIndex": 14,
+    "orderIndex": 15,
     "xpReward": 12,
     "stage": "Daily Life",
     "skillTags": [
@@ -2069,7 +2220,7 @@ export const sampleLessons: Lesson[] = [
     "unitTitle": "Unit 8: Places & Directions",
     "lessonTitle": "Places Around Town",
     "description": "Learn common places learners can recognize in family, school, and community life.",
-    "orderIndex": 15,
+    "orderIndex": 16,
     "xpReward": 10,
     "stage": "Navigation",
     "skillTags": [
@@ -2208,7 +2359,7 @@ export const sampleLessons: Lesson[] = [
     "unitTitle": "Unit 8: Places & Directions",
     "lessonTitle": "Directions and Where",
     "description": "Ask where something is and understand basic direction words.",
-    "orderIndex": 16,
+    "orderIndex": 17,
     "xpReward": 12,
     "stage": "Navigation",
     "skillTags": [
@@ -2340,12 +2491,151 @@ export const sampleLessons: Lesson[] = [
     ]
   },
   {
+    "id": "places-3",
+    "unitId": "unit-places",
+    "unitTitle": "Unit 8: Places & Directions",
+    "lessonTitle": "North, East, South, and West",
+    "description": "Add compass directions to the navigation unit so learners can talk about north, east, south, and west.",
+    "orderIndex": 18,
+    "xpReward": 12,
+    "stage": "Navigation",
+    "skillTags": [
+      "Compass directions",
+      "Navigation",
+      "Places"
+    ],
+    "questions": [
+      {
+        "id": "places-3-q1",
+        "type": "multiple-choice",
+        "prompt": "What does “amianan” mean?",
+        "choices": [
+          "north",
+          "south",
+          "east"
+        ],
+        "correctAnswer": "north",
+        "explanation": "“Amianan” means north."
+      },
+      {
+        "id": "places-3-q2",
+        "type": "multiple-choice",
+        "prompt": "What does “abagatan” mean?",
+        "choices": [
+          "south",
+          "north",
+          "west"
+        ],
+        "correctAnswer": "south",
+        "explanation": "“Abagatan” means south."
+      },
+      {
+        "id": "places-3-q3",
+        "type": "multiple-choice",
+        "prompt": "What does “daya” mean in directions?",
+        "choices": [
+          "east",
+          "left",
+          "near"
+        ],
+        "correctAnswer": "east",
+        "explanation": "“Daya” points to the east."
+      },
+      {
+        "id": "places-3-q4",
+        "type": "multiple-choice",
+        "prompt": "What does “laud” mean in directions?",
+        "choices": [
+          "west",
+          "right",
+          "tomorrow"
+        ],
+        "correctAnswer": "west",
+        "explanation": "“Laud” points to the west."
+      },
+      {
+        "id": "places-3-q5",
+        "type": "multiple-choice",
+        "prompt": "Choose the Ilokano word for “north.”",
+        "choices": [
+          "amianan",
+          "daya",
+          "kannawan"
+        ],
+        "correctAnswer": "amianan",
+        "explanation": "“Amianan” is north."
+      },
+      {
+        "id": "places-3-q6",
+        "type": "multiple-choice",
+        "prompt": "Choose the Ilokano word for “east.”",
+        "choices": [
+          "daya",
+          "laud",
+          "kannigid"
+        ],
+        "correctAnswer": "daya",
+        "explanation": "“Daya” is east."
+      },
+      {
+        "id": "places-3-q7",
+        "type": "multiple-choice",
+        "prompt": "Choose the Ilokano word for “south.”",
+        "choices": [
+          "abagatan",
+          "amianan",
+          "asideg"
+        ],
+        "correctAnswer": "abagatan",
+        "explanation": "“Abagatan” is south."
+      },
+      {
+        "id": "places-3-q8",
+        "type": "multiple-choice",
+        "prompt": "Choose the Ilokano word for “west.”",
+        "choices": [
+          "laud",
+          "sadino",
+          "aldaw"
+        ],
+        "correctAnswer": "laud",
+        "explanation": "“Laud” is west."
+      },
+      {
+        "id": "places-3-q9",
+        "type": "translation",
+        "prompt": "Translate to English:",
+        "ilokano": "Mapan ka iti amianan.",
+        "correctAnswer": "Go north",
+        "acceptedAnswers": [
+          "go north",
+          "you go north",
+          "go to the north"
+        ],
+        "explanation": "This sentence uses “amianan” to point north."
+      },
+      {
+        "id": "places-3-q10",
+        "type": "translation",
+        "prompt": "Translate to English:",
+        "ilokano": "Adda ti merkado iti daya.",
+        "correctAnswer": "The market is to the east",
+        "acceptedAnswers": [
+          "the market is to the east",
+          "the market is in the east",
+          "the market is east"
+        ],
+        "explanation": "This sentence combines a place word, “merkado,” with the direction “daya.”"
+      }
+    ]
+  },
+  {
     "id": "conversation-1",
     "unitId": "unit-conversation",
     "unitTitle": "Unit 9: Everyday Conversations",
     "lessonTitle": "Friendly Conversation",
     "description": "Combine greetings, names, feelings, and polite responses in short exchanges.",
-    "orderIndex": 17,
+    "orderIndex": 19,
     "xpReward": 15,
     "stage": "Conversation",
     "skillTags": [
@@ -2484,7 +2774,7 @@ export const sampleLessons: Lesson[] = [
     "unitTitle": "Unit 9: Everyday Conversations",
     "lessonTitle": "Classroom and Daily Phrases",
     "description": "Practice phrases that fit school, study, and everyday beginner conversations.",
-    "orderIndex": 18,
+    "orderIndex": 20,
     "xpReward": 15,
     "stage": "Conversation",
     "skillTags": [
@@ -2622,7 +2912,7 @@ export const sampleLessons: Lesson[] = [
     "unitTitle": "Unit 10: Checkpoint Review",
     "lessonTitle": "Foundations Checkpoint",
     "description": "Review greetings, introductions, family, numbers, and colors in one mixed lesson.",
-    "orderIndex": 19,
+    "orderIndex": 21,
     "xpReward": 20,
     "stage": "Review",
     "skillTags": [
@@ -2761,7 +3051,7 @@ export const sampleLessons: Lesson[] = [
     "unitTitle": "Unit 10: Checkpoint Review",
     "lessonTitle": "Mixed Mastery Checkpoint",
     "description": "A final beginner checkpoint that requires full mastery before the course path is complete.",
-    "orderIndex": 20,
+    "orderIndex": 22,
     "xpReward": 25,
     "stage": "Review",
     "skillTags": [

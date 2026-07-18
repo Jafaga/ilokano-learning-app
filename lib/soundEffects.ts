@@ -1,4 +1,5 @@
-//AI generated since I didn't know how to make a sound effect 
+// HOW DO I EVEN MAKE CUSTOM SOUND EFFECTS???!!!!
+// AI generated since I didn't know how to make a sound effect 
 // Sound effect for answers that are correct / non-correct  
 function playToneSequence(frequencies: number[], duration = 0.08): void {
   if (typeof window === "undefined") return;
