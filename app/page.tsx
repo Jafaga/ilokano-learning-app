@@ -67,7 +67,11 @@ export default function WelcomePage() {
 
       <section id="developer" className="developer-section elevated-card" aria-labelledby="developer-heading">
         <div className="developer-section-photo-wrap">
-          <img className="developer-section-photo" src="/justineA.jpg" alt="Portrait placeholder for Justine Afaga" />
+          <img
+            className="developer-section-photo"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/justineA.jpg`}
+            alt="Justine Afaga, developer of Learn Ilokano"
+          />
           <div className="developer-name-card">
             <span>Developer</span>
             <strong>Justine Afaga</strong>

@@ -43,6 +43,12 @@ Open:
 http://localhost:3000
 ```
 
+## Live Deployment
+
+This repository includes a GitHub Actions workflow that builds the Next.js app as a static export and deploys it to GitHub Pages after every push to `main`.
+
+In the GitHub repository, open **Settings → Pages** and set **Source** to **GitHub Actions**. The workflow in `.github/workflows/deploy-pages.yml` will publish the site and show its public URL in the deployment summary.
+
 ## Testing on Phone Browser (may not work for some devices)
 
 Run:

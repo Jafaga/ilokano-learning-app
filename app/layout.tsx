@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Learn Ilokano",
   description: "A Duolingo-inspired Ilokano learning web app built with Next.js.",
-  manifest: "/manifest.json"
+  manifest: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/manifest.json`
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
