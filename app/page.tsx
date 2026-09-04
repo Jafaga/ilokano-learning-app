@@ -77,7 +77,7 @@ export default function WelcomePage() {
 
         <div className="developer-section-content">
           <p className="eyebrow">About the developer</p>
-          <h2 id="developer-heading">Sasinoak?</h2>
+          <h2 id="developer-heading">Siasinnoak?</h2>
           <p>
             Hello, I’m Justine Afaga. I graduated at the University of Hawaiʻi at Mānoa this past FALL, 2026. A double major student in Computer Science with Philippine Language and Culture studies in Ilokano. I will continue attending UH this upcoming FALL for graduate program. This project brings both sides of my profession together: my experience learning about software engineering, and my learning of keeping my mother tongue language and culture presence in my life.
           </p>
